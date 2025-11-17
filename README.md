@@ -11,3 +11,25 @@ We will use Python, the FastAPI python framework, Uvicorn for the server, an HTT
 
 ## Why are we using these?
 Python's simplicity and readability make it an ideal language for us to use while learning.  FastAPI is beginner-friendly and has some nice features like built in Swagger document generation and input validation.
+
+## Actual Steps
+
+### Install necessary dependencies (macOS)
+
+Installing python:
+```python
+brew install python
+```
+
+Installing dependencies:
+```python
+pip3 install fastapi uvicorn requests python-dotenv
+```
+
+### Create a main.py file
+In the root directory of our project, we will create a main.py file to encapsulate our main logic.
+```
+my-api-tutorial/
+│── main.py
+│── .env
+```
